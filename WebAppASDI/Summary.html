@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Observation TOOL</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <header class = "header">
+        <img src="logo.png" alt="logo" id = "logo">
+        <nav class = "header_nav">
+            <a href="index.html">HOME</a>
+            <a href="ratingPage.html">RATING</a>
+            <a href="Summary.html">SUMMARY</a>
+            <a href="#">ACCOUNT</a>
+        </nav>
+    </header>
+    <div class = "Summary_wrapper">
+       <h2> Teacher's Summary</h2>
+        <input type="text" class = "inputBox" placeholder="Search by Teacher Name" id="searchInput">
+        <button id="searchButton">Search</button>
+        <table id="summaryTable" class = "summaryTable">
+            <thead>
+                <tr>
+                    <th>Teacher Name</th>
+                    <th>Observation Date</th>
+                    <th>Observer Name</th>
+                    <th>Class Observed</th>
+                    <th>Standard 11. <br>Curriculum Programs</th>
+                    <th>Standard 12. <br>Teaching and Learning Methods</th>
+                    <th>Standard 13. <br>Assessment Methods</th>
+                    <th>Rating</th>
+                    <th>AI Recommendations </th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody id="summaryBody">
+                <!-- Summary data will be populated here -->   
+                
+            </tbody>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

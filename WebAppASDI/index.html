@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Observation TOOL</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <header class = "header">
+        <img src="logo.png" alt="logo" id = "logo">
+        <nav class = "header_nav">
+            <a href="index.html">HOME</a>
+            <a href="ratingPage.html">RATING</a>
+            <a href="Summary.html">SUMMARY</a>
+            <a href="#">ACCOUNT</a>
+        </nav>
+    </header>
+    <div class = "wrapper">
+        <aside>
+            <div class = "Hero">
+               <p class = "Hero_title"> NSDAPS <br>OBSERVATION TOOL </p>
+               <p class = "Hero_subtitle">A Teacher’s Tool to improve Teaching and
+                Learning Skill through class observation and 
+                AI integration </p>
+                <p class = "Hero_qoutes">
+                    “There is only one corner of the universe you can be certain 
+                    of improving, and that's your own self.”
+                    - Aldous Huxley
+                </p>
+            </div>
+        </aside>
+        <main>
+            <form action = "login.php" method="POST" class = "login_form">
+                <h3 class=" login"> LOGIN</h3>
+                <input type="text" class = "inputBox" placeholder="Username" name = "username" required>
+                <input type="password" class = "inputBox" placeholder="Password" name = "password" required>
+                    <div class = "buttons">
+                        <button class = "button_teacher" name="teacherButton" >TEACHER</button>
+                        <button class = "button_observer" name="observerButton"> OBSERVER</button>
+                    </div>
+            </form>
+        </main>
+    </div>
+    
+    <footer class = "footer"> 
+        <p>Copyright @ 2025 | The ICT Department</p>
+    </footer>
+    <script src="login.js"></script>
+  
+</body>
+</html>
